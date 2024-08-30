@@ -61,6 +61,7 @@ print('\033[1;31;43mLetra vermelha fundo amarelo, em negrito\033[m')
 print('\033[4;30;45mLetra branca, fundo lilás, sublinhado\033[m')
 print('\033[1;37mLetra branca, fundo preto\033[m')
 print('\033[7;37mLetra branca, fundo preto invertida\033[m')
+print('Muito prazer em te conhecer {}{}{}!!'.format('\033[7;34;40m',msg,'\033[m'))
 
 # módulo do colocama! :D
 print(f'{Fore.BLUE}ha{Fore.RED}HA{Fore.YELLOW}ha{Fore.LIGHTGREEN_EX}HA{Fore.MAGENTA}ha{Fore.CYAN}HA{Fore.WHITE}ha{Fore.LIGHTYELLOW_EX}HA{Fore.LIGHTRED_EX}ha{Fore.LIGHTBLUE_EX}HA!\033[m xD')  # colorama library
