@@ -1,6 +1,9 @@
+import colorpyteo
+print(colorpyteo.colorful_text('MAIOR E MENOR VALOR', font='digital', color='green'))
+
 a = int(input('Primeiro valor: '))
 b = int(input('Segundo valor: '))
-c = int(input('Terceiro valor: '))
+c = int(input('Terceiro valor: '))  
 
 maior = a
 menor = a
@@ -15,6 +18,6 @@ if b < menor:
 if c < menor:
     menor = c
 
-print('O menor valor digitado foi: {}'.format(menor))
-print('O MAIOR velor digitado foi: {}'.format(maior))
+print('\nO menor valor digitado foi: \033[31m{}\033[m'.format(menor))
+print('O MAIOR velor digitado foi: \033[32m{}\033[m\n'.format(maior))
 
